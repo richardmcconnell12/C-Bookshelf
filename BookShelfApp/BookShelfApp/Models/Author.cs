@@ -25,12 +25,12 @@ namespace BookShelfApp.Models
             }
         }
 
-        public string Penname { get; set; }
+        public string PenName { get; set; }
 
         public string PreferredGenre { get; set; }
 
-        public List<Book> Books { get; set; }
+        public ICollection<Book> Books { get; set; }
 
-        public ApplicationUser applicationUser { get; set; }
+        public ICollection<ApplicationUser> User { get; set; }
     }
 }

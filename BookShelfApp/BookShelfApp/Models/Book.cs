@@ -15,7 +15,7 @@ namespace BookShelfApp.Models
 
         public string Genre { get; set; }
 
-        public string PublishDate { get; set; }
+        public DateTime PublishDate { get; set; }
 
         public string Author { get; set; }
 
